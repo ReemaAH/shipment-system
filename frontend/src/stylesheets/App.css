@@ -1,0 +1,50 @@
+.App-header {
+  background-color:#505050;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  padding: 20px;
+  padding-right: 40%;
+  padding-left: 5%;
+}
+.nav-button{
+margin-right: -500px;
+width: 20%;
+}
+.App-header > h1 {
+  color: rgb(255, 255, 255);
+  margin-top: -10px;
+
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  margin: 5px 0px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+
+  background-color: violet;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.cards-menu{
+  margin-top: 50px;
+  margin-left: 50px;
+}

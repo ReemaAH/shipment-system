@@ -1,0 +1,6 @@
+venv
+node_modules
+.env
+static
+media/*
+__pycache__

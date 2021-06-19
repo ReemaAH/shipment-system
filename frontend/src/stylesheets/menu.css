@@ -1,0 +1,13 @@
+.card-menu-image{
+    width: 30%;
+    height:auto;
+    margin-left: 80px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+  }
+
+  .cards-menu a:hover{
+   background-color:violet;
+    text-decoration: none;
+
+  }

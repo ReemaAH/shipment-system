@@ -1,0 +1,36 @@
+.category-select{
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+.add-form{
+    background-color:#F0F0F0;
+    margin: 20px 20px 20px -100px;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px; ;
+}
+
+ h2{
+     text-align: left;
+     margin-left: -100px;
+     margin-top: 50px;
+ }
+
+ .submit-button-div{
+     margin-top: 20px;
+     margin-bottom: 50px;
+     margin-left: -20px;
+     text-align: center;
+ }
+ .submit-button{
+    
+     width: 150px;
+ }
+
+ .success-message{
+     margin-top: 200px;
+ }
+
