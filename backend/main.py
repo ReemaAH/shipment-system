@@ -41,30 +41,6 @@ def after_request(response):
     return response
 
     
-oauth = OAuth(app)
-
-auth0 = oauth.register(
-    'auth0',
-    client_id='XyowRwEUCqCR2ojSFuUGomwhZG214ODi',
-    client_secret='9outrfbamv8fqyMbUXRiAXAoL9rGApraWr4r2YinuZ6KAjSdSw87XHJfCO18fgor',
-    api_base_url='shipment-app.us.auth0.com',
-    access_token_url='https://shipment-app.us.auth0.com/oauth/token',
-    authorize_url='https://shipment-app.us.auth0.com@app.route/authorize',
-     client_kwargs={
-        'scope': 'openid profile email',
-    },
-)
-
-# def requires_auth(f):
-# @wraps(f)
-# def decorated(*args, **kwargs):
-#     if 'profile' not in session:
-#     # Redirect to Login page here
-#     return redirect('/')
-# return f(*args, **kwargs)
-
-#   return decorated
-
 
 @app.route('/callback')
 def callback_handling():
